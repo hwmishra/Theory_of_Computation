@@ -1,0 +1,25 @@
+#include<iostream>
+#include<string.h>
+using namespace std;
+int main()
+{
+	int t;
+	cin>>t;
+	while(t--)
+	{
+		cout<<"Enter a string"<<endl;
+		char str[4];
+		cin>>str;
+		int length = strlen(str);
+		if(str[0]=='1'&&str[1]=='1'&&str[2]=='1')
+		{
+			cout<<"accepted"<<endl;
+			
+		}
+		else
+		{
+			cout<<"not accepted"<<endl;
+		}
+	}
+	return 0;
+}
